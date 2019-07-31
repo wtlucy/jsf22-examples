@@ -174,7 +174,7 @@
     </build>
 	
     <properties>
-        <myfaces.version>2.2.0-SNAPSHOT</myfaces.version>
+        <myfaces.version>2.2.11</myfaces.version>
         <mojarra.version>2.2.2</mojarra.version>
         <owb.version>1.2.0</owb.version>
         <jetty.version>8.1.10.v20130312</jetty.version>
