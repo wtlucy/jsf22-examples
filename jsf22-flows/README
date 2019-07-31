@@ -1,3 +1,11 @@
+JSF 2.2 Faces Flows PrettyFaces Compatibility Issue
+===============================
+This example has been updated to showcase an issue with PrettyFaces and JSF 2.2 Faces Flows.  `rewrite-servlet` and `rewrite-config-prettyfaces` have been added to the application.
+
+To reproduce this issue on MyFaces, execute `mvn jetty:run -P myfaces` and access the app via `http://localhost:8080/jsf22-flows/`.  A `NullPointerException` will be displayed.
+
+
+
 JSFlive JSF 2.2: CDI View Scope
 ===============================
 
