@@ -5,11 +5,13 @@ import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
+
+import java.io.Serializable;
 import java.util.List;
 
 @Named
 @ViewScoped
-public class PersonPage {
+public class PersonPage implements Serializable {
     @Inject
     private PersonRepository personRepository;
 

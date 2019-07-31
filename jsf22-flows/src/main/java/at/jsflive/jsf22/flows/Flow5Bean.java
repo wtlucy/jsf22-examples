@@ -3,11 +3,13 @@ package at.jsflive.jsf22.flows;
 import javax.faces.context.FacesContext;
 import javax.faces.flow.FlowScoped;
 import javax.inject.Named;
+
+import java.io.Serializable;
 import java.util.Map;
 
 @Named
 @FlowScoped(value = "flow5")
-public class Flow5Bean {
+public class Flow5Bean implements Serializable {
 
     public String storeValues() {
         Map<Object,Object> currentFlowScope = FacesContext.getCurrentInstance().getApplication().getFlowHandler().getCurrentFlowScope();

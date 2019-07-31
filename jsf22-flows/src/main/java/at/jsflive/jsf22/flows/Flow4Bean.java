@@ -1,11 +1,13 @@
 package at.jsflive.jsf22.flows;
 
+import java.io.Serializable;
+
 import javax.faces.flow.FlowScoped;
 import javax.inject.Named;
 
 @Named
 @FlowScoped(value = "flow4")
-public class Flow4Bean {
+public class Flow4Bean implements Serializable {
     private String value1;
     private String value2;
 
